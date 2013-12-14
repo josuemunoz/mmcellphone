@@ -1,0 +1,55 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mmcellphone mobile</title>
+<link href="assets/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="assets/css/mm.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="assets/respond.min.js"></script>
+<script src="assets/javascript/functions.js"> </script>
+<script src="cordova.js"> </script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1">
+    
+    <div id="header"><img src="assets/logo/cell-background_01.png" alt="logo"></div>
+    
+    <div id="links">
+    	 <nav>
+         	<a href="" id="home">Home</a>
+         	<a href="#" id="service" onClick="loadPage('test.html', 'content')">Services</a>
+         	<a href="" id="company">Company's</a>
+         	<a href="" id="cell">Cell Phones</a>
+         </nav> 
+    </div>
+    
+    <div id="content">
+    	<h1>call today for a price quote!</h1>
+    </div>
+    
+    <div id="footer">mmcellphone.com | apps by turn2mobile.com</div>
+  </div> 
+</div> 
+<div id="loading"><img src="assets/loading/ajax-loader.gif" alt="loader"></div>
+</body>
+</html>
