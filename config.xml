@@ -34,8 +34,8 @@ Josue Munoz
 	<preference name="detect-data-types" 			value="true" />
 	
 
-<icon src="assets/splash/icon_phone.png" />
+<icon src="ASSETS/splash/icon_phone.png" />
 
-<gap:splash src="assets/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-<gap:splash src="assets/splash/splash_screen.png" />
+
+<gap:splash src="ASSETS/splash/splash_screen.png" />
 </widget>
