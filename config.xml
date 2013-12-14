@@ -34,7 +34,7 @@ Josue Munoz
 	<preference name="detect-data-types" 			value="true" />
 	
 
-<icon src="assets/splash/icon_phone.png" />
+<icon src="assets/splash/icon.png" />
 
 
 <gap:splash src="assets/splash/xhdpi.png" />
