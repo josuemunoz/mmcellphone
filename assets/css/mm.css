@@ -27,7 +27,7 @@ img, object, embed, video {
 */
 
 /* Mobile Layout: 480px and below. */
-body{ background-color:#000; color:#FFF;}
+body{ background-color:#000; color:#FFF; -webkit-tap-highlight-color: rgba(0,0,0,0);}
 nav a{ width:24%; height:60px; color:#FFF; float:left; text-align:center; padding-top:70px;
 border-radius:10px; font-family:Verdana; font-size:1em; margin:.5%; text-shadow:1px 2px 2px #333333; text-decoration:none;
 }
@@ -42,7 +42,7 @@ nav a:visited, nav a:link{ color:#CCC;}
 	margin-left: auto;
 	margin-right: auto;
 	width: 93.7666%;
-	min-height:700px;
+	
 	padding-left: 1.6166%;
 	padding-right: 1.6166%;
 }
