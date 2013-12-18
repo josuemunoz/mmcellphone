@@ -14,6 +14,7 @@ PHONES
 Josue Munoz
 </author>
 
+  <access origin="http://phonegap.com" subdomains="true" />
 
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
@@ -26,7 +27,7 @@ Josue Munoz
   	<preference name="orientation"    				value="vertical" />
   	<preference name="target-device"    			value="universal" />
   	<preference name="fullscreen"       			value="false" />
-	<preference name="webviewbounce" 				value="true" />
+
 	<preference name="prerendered-icon" 			value="false" />
 	<preference name="show-splash-screen-spinner" 	value="true" />
 	<preference name="splash-screen-duration" 		value="3000" />
